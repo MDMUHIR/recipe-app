@@ -1,5 +1,5 @@
 <template>
-  <div class="appBody">
+  <div class="appBody  bg-dark bg-opacity-50">
     <header class="fixed-top">
       <Navbar></Navbar>
     </header>

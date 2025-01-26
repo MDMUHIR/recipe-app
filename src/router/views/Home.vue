@@ -11,31 +11,27 @@ getMealsRandomly();
 <template>
   <div class="main">
     <div class="container-md">
-      <div class="heading bg-white p-3 rounded mt-3">
-        <div class="heading-top d-flex justify-content-around w-100">
-          <div class="h-logo w-25 text-end">
-            <img
-              class="heading-logo w-25"
-              src="../../../public/Images/meal-icon.png"
-              alt=""
-            />
-          </div>
+      <div
+        class="heading bg-white p-3 rounded-top mt-3 d-flex flex-column flex-md-row align-items-center justify-centent-center"
+      >
+        <div
+          class="heading-top d-flex flex-column flex-md-row justify-content-center align-items-center w-100"
+        >
           <div class="h-text text-center mt-3">
-            <h4 class="">
+            <h4 class="display-md-6">
               Welcome to
               <span class="navbar-brand fw-bold text-danger fst-italic"
                 >HoMe Meal</span
               >
             </h4>
           </div>
-          <div class="h-logo w-25">
-            <img
-              class="heading-logo w-25"
-              src="../../../public/Images/meal-icon.png"
-              alt=""
-            />
-          </div>
+          <img
+            class="heading-logo w-25 p-1"
+            src="../../../public/Images/meal-icon.png"
+            alt=""
+          />
         </div>
+
         <div class="heading-bottom p-2 pb-0">
           <figure class="text-end">
             <blockquote class="blockquote">
@@ -70,7 +66,13 @@ getMealsRandomly();
 </template>
 
 <style scoped>
-.h-text {
-  width: 315px;
+
+.display-md-6 {
+  font-size: 1.25rem;
+}
+@media (min-width: 768px) {
+  .display-md-6 {
+    font-size: 2rem;
+  }
 }
 </style>
