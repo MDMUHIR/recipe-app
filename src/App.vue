@@ -3,11 +3,9 @@
 </script>
 
 <template>
-    <div class="h-100 w-100 bg-dark bg-opacity-50 ">
-      <router-view />
-    </div>
+  <div class="w-100 bg-dark bg-opacity-50">
+    <router-view />
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
